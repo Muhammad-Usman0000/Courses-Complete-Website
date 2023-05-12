@@ -1,0 +1,246 @@
+/* Graphic Design for Mobile  */
+@media screen and (max-width: 767px) {
+    .background_text{
+        padding-top: 5rem;
+    }
+    .form_margin{
+        margin-bottom: 1rem;
+    }
+    .red_line{
+        display: none;
+    }
+    .logo_image{
+        margin-top: 0rem;
+    }
+    .print_design{
+        display: none;
+    }
+    .brand_line{
+        display: none;
+    }
+    .our_process{
+        font-size: 3rem;
+    }
+    .first{
+        height: 50vh;
+    }
+    .second{
+        height: 50vh;
+    }
+    .third{
+        height: 50vh;
+    }
+    .four{
+        height: 50vh;
+    }
+}
+
+/* Graphic Design for Tablet  */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .background_text{
+        padding-top: 5rem;
+    }
+    .text-font{
+        font-size: 1.5rem;
+    }
+    .red_line{
+        margin-top: 1rem;
+    }
+    .print_design{
+        margin-top: 1rem;
+    }
+    .brand_line{
+        margin-top: 1rem;
+    }
+    .logo_image{
+        margin-top: -7rem;
+    }
+    .our_process{
+        font-size: 3rem;
+    }
+    .logo_text{
+        padding-top: 2rem;
+    }
+}
+
+/* Graphic Design for Laptop */
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+    .background_text{
+        padding-top: 5rem;
+    }
+    .first{
+        width: 80%;
+        height: 50vh;
+    }
+    .second{
+        width: 80%;
+        height: 50vh;
+    }
+    .third{
+        width: 80%;
+        height: 50vh;
+    }
+    .four{
+        width: 80%;
+        height: 50vh;
+    }
+}
+
+/* Software Development responsive */
+
+/* Software Development mobile  */
+@media screen and (max-width: 767px) {
+
+    .angular img{
+        width: 20%;
+        height: 20vh;
+    }
+    .react img{
+        width: 20%;
+        height: 20vh;
+    }
+    .js img{
+        width: 20%;
+        height: 20vh;
+    }
+    .html img{
+        width: 20%;
+        height: 20vh;
+    }
+    .css img{
+        width: 20%;
+        height: 20vh;
+    }
+    .less img{
+        width: 20%;
+        height: 20vh;
+    }
+    .sass img{
+        width: 20%;
+        height: 20vh;
+    }
+    .php img{
+        width: 20%;
+        height: 20vh;
+    }
+    .c_sharp img{
+        width: 20%;
+        height: 20vh;
+    }
+    .js_back_end img{
+        width: 20%;
+        height: 20vh;
+    }
+    .express img{
+        width: 20%;
+        height: 20vh;
+    }
+    .laravel img{
+        width: 20%;
+        height: 20vh;
+    }
+    .yii img{
+        width: 20%;
+        height: 20vh;
+    }
+    .symfony img{
+        width: 20%;
+        height: 20vh;
+    }
+    .net img{
+        width: 20%;
+        height: 20vh;
+    }
+    .opencart img{
+        width: 20%;
+        height: 20vh;
+    }
+    .wordpress img{
+        width: 20%;
+        height: 20vh;
+    }
+    .joomla img {
+        width: 20%;
+        height: 20vh;
+    }
+    .mysql img{
+        width: 20%;
+        height: 20vh;
+    }
+    .postgresql img{
+        width: 20%;
+        height: 20vh;
+    }
+    .mongodb img{
+        width: 20%;
+        height: 20vh; 
+    }
+    .elastic img{
+        width: 20%;
+        height: 20vh;
+    }
+    .redis img{
+        width: 20%;
+        height: 20vh;    
+    }
+    .life_cycle_heading{
+        padding: 1rem;
+    }
+    .separator{
+        width: 30%;
+    }
+    .engagement_modal{
+        width: 100%;
+    }
+}
+
+/* Software Development for Tablet  */
+@media screen and (min-width: 768px) and (max-width: 991px){
+
+    .angular{
+        padding: 0.75rem 0.50rem;
+    }
+    .react {
+        padding: 0.75rem 0.50rem;
+    }
+    .less{
+        padding: 2.5rem 0.50rem;
+    }
+    .php{
+        padding: 2.3rem 0.50rem;
+    }
+    .express{
+        padding: 2.6rem 0.50rem;
+    }
+    .net{
+        padding: 2.3rem 0.50rem;
+    }
+    .mongodb img{
+        width: 50%;
+        height: 20vh;
+    }
+    .mongodb {
+        padding: 1rem 0.50rem;
+    }
+}
+
+/* Software Development  for Laptop */
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+    .less{
+        padding: 1.4rem 0.50rem;
+    }
+    .php{
+        padding: 1.4rem 0.50rem;
+    }
+    .express{
+        padding: 1.4rem 0.50rem;
+    }
+    .net{
+        padding: 1.4rem 0.50rem;
+    }
+    .mongodb img{
+        width: 50%;
+        height: 10vh;
+    }
+
+}

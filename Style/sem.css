@@ -1,0 +1,260 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none !important;
+    color: black !important;
+}
+li {
+    list-style: none;
+}
+/* .............................. */
+.bgBannerImage{
+    background-image: url(/assest/img/Social-media-page\ \(1\).png);
+    width: 100%;
+    height: 85vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.mstPwrSec{
+    padding-top: 10rem;
+}
+.mstPwrSecHeading{
+    font-size: 3rem;
+}
+.letDevWebBtn{
+    border: 4px solid white;
+    font-size: 1.4rem;
+    color: white !important;
+    border-radius: 1rem;
+}
+.letDevWebBtn:hover{
+    border: 4px solid red;
+    color: #F24A4A !important;
+    background-color:white;
+}
+.qualityWebHeading{
+    font-size: 2.6rem;
+}
+.enterUrl{
+    font-size: 1.5rem;
+    border: 2px solid #89C712;
+    width: 16rem;
+}
+.enterUrl:hover{
+    border: 2px solid black;
+}
+.companyName{
+    border: 2px solid #89C712;
+    font-size: 1.5rem;
+    width: 32.5rem;
+}
+.companyName:hover{
+    border: 2px solid black;
+
+}
+.rowForpaddTop{
+    padding-top: 5rem;
+}
+.scheduleSession{
+    background-color: #89C712;
+    color: white !important;
+}
+.rightRow {
+    background-color: #F24A4A;
+    height: 0.3rem;
+    width: 35rem !important;
+    margin-left: 2rem;
+}
+.leftUnderlineImage{
+    margin-top: -10rem;
+}
+.row2ForpaddTop{
+    padding-top: 9rem;
+}
+.rightRow2{
+    background-color: #F24A4A;
+    height: 0.3rem;
+    width: 30rem !important;
+}
+.row3ForpaddTop{
+    padding-top: 9rem;
+}
+.rightRow3{
+    background-color: #F24A4A;
+    height: 0.3rem;
+    width: 36rem !important;
+}
+.rightRow4{
+    background-color: #F24A4A;
+    height: 0.3rem;
+    width: 40.9rem !important;
+}
+.rightRow5{
+    background-color: #F24A4A;
+    height: 0.3rem;
+    width: 39rem !important;
+}
+.bgBox{
+    background-color: #DDDDDD;
+    padding-bottom: 8rem;
+}
+.ourProcessHeading{
+    font-size: 5rem;
+}
+.oneHeadTag{
+    font-size: 12rem;
+    position: relative;
+}
+.researchStn {
+    position: absolute;
+    top: 587%;
+    left: 9%;
+}
+.researchStn2{
+    position: absolute;
+    top: 587%;
+    left: 30%;
+}
+.researchStn3{
+    position: absolute;
+    top: 587%;
+    left: 51%;
+}
+.researchStn4{
+    position: absolute;
+    top: 587%;
+    left: 72%;
+}
+.centerLine{
+    background-color: black;
+    height: 1rem;
+}
+.WhyGoSocial{
+    text-align: center;
+}
+.Social-Ul p{
+    padding-left: 5rem;
+    display:inline-block ;
+}
+.lastsectionSembanner{
+   
+    background: url(/assest/img/3.png);
+    background-size: cover;
+    background-repeat: no-repeat ;
+    width: 100%;
+    height: 100vh;
+
+}
+.agileHeading{
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+.rightRow2 {
+  background-color: #f24a4a;
+  height: 0.3rem;
+  width: 25rem !important;
+}
+
+.row3ForpaddTop {
+  padding-top: 9rem;
+}
+.bgSeoProText{
+    background-color: #C34B53;
+    padding: 14rem 5rem 13rem 4rem;
+}
+.bgStep1 {
+    background-color: #F24343;
+    display: inline-block;
+    padding:3rem 2rem 3rem 6rem;
+    width: 30rem;
+    height: 12.5rem;
+}
+.bgStep2{
+    background-color: #E25555;
+    display: inline-block;
+    padding: 3rem 2rem 3rem 6rem;
+    height: 12.5rem;
+    width: 25rem;
+
+}
+.step1Text{
+    /* border: 2px solid white; */
+ display: block;
+ 
+}
+.step1Border {
+    border: 2px solid white;
+    border-radius: 2rem;
+    width: 6rem;
+    padding: 0.2rem;
+}
+.rightRow3 {
+  background-color: #f24a4a;
+  height: 0.3rem;
+  width: 36rem !important;
+}
+
+.rightRow4 {
+  background-color: #f24a4a;
+  height: 0.3rem;
+  width: 40.9rem !important;
+}
+
+.rightRow5 {
+  background-color: #f24a4a;
+  height: 0.3rem;
+  width: 39rem !important;
+}
+
+.bgBox {
+  background-color: #dddddd;
+  padding-bottom: 8rem;
+}
+
+.ourProcessHeading {
+  font-size: 5rem;
+}
+
+.oneHeadTag {
+  font-size: 12rem;
+  position: relative;
+}
+
+.researchStn {
+  position: absolute;
+  top: 587%;
+  left: 9%;
+}
+
+.researchStn2 {
+  position: absolute;
+  top: 587%;
+  left: 30%;
+}
+
+.researchStn3 {
+  position: absolute;
+  top: 587%;
+  left: 51%;
+}
+
+.researchStn4 {
+  position: absolute;
+  top: 587%;
+  left: 72%;
+}
+
+.centerLine {
+  background-color: black;
+  height: 1rem;
+}
+.forPTop{
+    padding-top: 10rem;
+}
+.firstImage:hover{
+opacity: 0.6;
+}

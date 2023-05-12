@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+}
+.navbar-nav{
+    margin-left: 5rem;
+}
+.dropdown-menu{
+    width: 600%;
+}
+
+.dropdown-item{
+    margin-top: -33px;
+    margin-left: 23px;
+}
+.btn-1{
+    background-color: rgb(241, 75, 75);
+    border-color: rgb(241, 75, 75);
+    padding: 5px 30px;
+    margin-left: 10rem;
+}
+
+.btn-1:hover{
+    background-color: white;
+    border-color: rgb(241, 75, 75);
+    color: rgb(241, 75, 75) ;
+
+}
+.nav-col{
+    background-color:honeydew; 
+    width: 48%;
+}
+
+ /* -------------------------------------------------NOW START MEDIA QUERIES ------------------------------------ */
+
+/* start mobile */
+@media screen and (max-width: 766px) {
+    .nav-des{
+        margin-left: -45px;
+    }
+
+    .navbar-nav{
+        margin-left: 0rem;
+    }
+
+.btn-1{
+    margin-left: -4rem;
+}
+.nav-row{
+    width: 204%;
+}
+.dropdown-menu{
+    width: 16rem;
+}
+.nav-col{
+    margin-left: -263px;
+    margin-top: 32rem;
+    width: 90%;
+}
+}
+
+/* START tab */
+@media screen and (min-width: 767px) and (max-width: 991px) {
+    .nav-des{
+        margin-left: -45px;
+    }
+
+    .navbar-nav{
+        margin-left: 0rem;
+    }
+
+.btn-1{
+    margin-left: -4rem;
+}
+.nav-row{
+    width: 40%;
+}
+.dropdown-menu{
+    width: 33rem;
+}
+.nav-col{
+    margin-left: 64px;
+    width: 46%;
+}
+}
+
+/* START LAPTOP */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .navbar-nav{
+        margin-left: 1rem;
+    }
+
+    .nav-col {
+        width: 47%;
+  }
+
+  .dropdown-menu {
+    width: 560%;
+}
+.btn-1 {
+    margin-left: 1rem;
+
+}
+}
+
+  /* START X-LARGE */
+  @media screen and (min-width: 1200px) and (max-width: 1450px) {
+    .nav-col {
+        width: 47%;
+  }
+
+  .dropdown-menu {
+    width: 560%;
+}
+  }
+

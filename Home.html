@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+  <!-- flickity for slider -->
+  <link href="https://unpkg.com/flickity@2/dist/flickity.min.css" rel="stylesheet" />
+
+  <!-- bootstrap icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+  <!-- for animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="Style/Home.css" />
+  <!-- responve css -->
+  <link rel="stylesheet" href="assets/style/responsive.css" />
+  <!-- for font awsme icon  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- slider -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/css/splide.min.css" />
+</head>
+
+<body>
+  <!-- MAIN CONTENT START -->
+  <!-- ===================================NAV-SCRIPT-FOR-MULTIPLE-PAGES================== -->
+  <!-- <script id="replace_with_navbar" src="/javascript/newNav.js"></script> -->
+  <div class="container-fluid">
+    <div class="row">
+      <!--START NAV  section -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary px-5">
+        <div class="container-fluid">
+          <a href="Home.html"> <img src="image/download.png" class="" /></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse whiteSpace" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ulSection">
+              <li class="nav-item  homeItemNav">
+                <a class="nav-link nav-des active" aria-current="page" href="home.html"></a>
+              </li>
+              <li class="nav-item  homeItemNav">
+                <a class="nav-link nav-des" aria-current="page" href="About Us.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="CS.html">Case Studies</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu">
+                  <div class="row">
+                    <div class="col-6 nav-row">
+                      <li><a class="fw-bold">Development Services</a></li>
+                      <li>
+                        <img src="image/NAV1.png" /><a class="dropdown-item fw-bold"
+                          href="Software_Development.html">Software
+                          Development</a>
+                      </li>
+                      <p>Custom Software & applications for businesses</p>
+                      <li>
+                        <img src="image/NAV2.png" /><a class="dropdown-item fw-bold" href="webDev.html">Website
+                          Development</a>
+                      </li>
+                      <p>Fast, responsive & robust website development</p>
+                      <li>
+                        <img src="image/NAV3.png" /><a class="dropdown-item fw-bold" href="mobile-app.html">Mobile App
+                          Development</a>
+                      </li>
+                      <p>Andriod apps, IOS apps & Hyprid app development</p>
+                      <li>
+                        <img src="image/NAV4.png" /><a class="dropdown-item fw-bold" href="Ecommerce.html">Ecommerce
+                          Development</a>
+                      </li>
+                      <p>
+                        An online store with all the tools you need to
+                        build,manage,and grow your business
+                      </p>
+                      <li>
+                        <img src="image/nav5.png" /><a class="dropdown-item fw-bold" href="CmsDev.html">CMS
+                          Development</a>
+                      </li>
+                      <p>Wordpress, Magento , Shopify & Joomla development</p>
+                    </div>
+                    <div class="col-6 nav-col">
+                      <li><a class="fw-bold">Design Services</a></li>
+                      <li>
+                        <img src="image/gnav6.png" /><a class="dropdown-item fw-bold" href="Graphic_design.html">Graphic
+                          Design</a>
+                      </li>
+                      <p>Web & app design , print design & brand identity</p>
+                      <li>
+                        <img src="image/gnav7.png" /><a class="dropdown-item fw-bold" href="Ui.html">UI/UX
+                          Design</a>
+                      </li>
+                      <p>Premium web & mobile UI/UX design solutions</p>
+
+                      <li>
+                        <a class="fw-bold">Digital Marketing Services</a>
+                      </li>
+                      <li>
+                        <img src="image/bnav8.png" /><a class="dropdown-item fw-bold" href="SEO.html">SEO
+                          Services</a>
+                      </li>
+                      <p>1st page rankings & consistent organic traffic</p>
+                      <li>
+                        <img src="image/bnav9.png" /><a class="dropdown-item fw-bold" href="sem-services.html">SEM
+                          Services</a>
+                      </li>
+                      <p>
+                        Paid ads for social media , google and online
+                        advertising
+                      </p>
+                      <li>
+                        <img src="image/bnav10.png" /><a class="dropdown-item fw-bold"
+                          href="social-Services.html">Social Media</a>
+                      </li>
+                      <p>
+                        Creative designs,viral compaigns,community & social
+                        listening
+                      </p>
+                    </div>
+                  </div>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="Portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="Contact Us.html">Contact Us</a>
+              </li>
+              <div class="rightBtn ps-5">
+                <a href="Login_register.html" class="btn btn-1 btn-primary">Let's Talk</a>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--END NAV  section -->
+    </div>
+  </div>
+  <!-- ===================================NAV-SCRIPT-FOR-MULTIPLE-PAGES================== -->
+  <div class="yellow-main">
+    <img src="image/yellow ban.jpeg" class="main-yellow" alt="" />
+  </div>
+  <!-- MAIN CONTENT END -->
+  <!-- Second Section Start -->
+  <div class="container pt-5 ">
+    <div class="row">
+      <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12">
+        <img src="image/new-ban.jpg" class="" alt="" style="width: 100%" />\
+
+      </div>
+
+      <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12">
+        <h1 class="">Who We Are</h1>
+        <h5 class="">
+          Buzz Interactive is a full-service
+          <span>digital marketing agency</span> based in Pakistan &
+          Malaysia fuelled by smart, creative, and passionate people. We
+          believkin building strong brands, good clean design,
+          well-crafted content, and integrated strategies. From digital
+          marketing to website development, we're more than just another
+          agency. We're your next digital partner.
+        </h5>
+        <button type="button" class="btn  btn-secondary">
+          Explore More
+        </button>
+      </div>
+    </div>
+  </div>
+  <!-- <div class="section-2">
+    <div class="container">
+      <div class="row">
+        <div class="col-6"></div>
+        <div class="col-6">
+          <div class="card-img-overlay text-black d-flex flex-column justify-content-center">
+            <h1 class="card-title title-2 text-center">Who We Are</h1>
+            <p class="card-subtitle text-3">
+              Buzz Interactive is a full-service
+              <span>digital marketing agency</span> based in Pakistan &
+              Malaysia fuelled by smart, creative, and passionate people. We
+              believkin building strong brands, good clean design,
+              well-crafted content, and integrated strategies. From digital
+              marketing to website development, we're more than just another
+              agency. We're your next digital partner.
+            </p>
+            <button type="button" class="btn btn-1 btn-secondary">
+              Explore More
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+  <!-- Second Section End -->
+
+  <!-- third design start -->
+  <div class="design-round" style="background-color: #e3e3ed">
+    <div class="container">
+      <div class="row">
+        <!-- First Threee div section start -->
+        <div class="col-12">
+          <h1 class="text-center title-3">Things We Are Good At</h1>
+          <div class="card crd-6" style="border: none; background-color: #e3e3ed">
+            <div class="row">
+              <!-- div 1 -->
+              <div class="col-sm-2 col-md-4 col-lg-4">
+                <img src="image/d1.png" class="rounded-circle" data-aos="zoom-in" data-aos-duration="2000" />
+                <h5 class="text-center">DESIGNING</h5>
+                <p class="text-center p-1">
+                  Branding <br />
+                  Logo design <br />Print design <br />Web (UX/UI)
+                </p>
+                <span class="text-center span-1"> View Details</span>
+              </div>
+              <!-- div 2 -->
+              <div class="col-sm-2 col-md-4 col-lg-4">
+                <img src="image/d3.png" class="rounded-circle" data-aos="zoom-in" data-aos-duration="2000" />
+                <h5 class="text-center">SOCIAL MEDIA</h5>
+                <p class="text-center p-1">
+                  Paid Media <br />
+                  Creative Strategy <br />Campaign management <br />
+                  Community management
+                </p>
+                <span class="text-center span-1"> View Details</span>
+              </div>
+              <!-- div 3 -->
+              <div class="col-sm-2 col-md-4 col-lg-4">
+                <img src="image/d2.png" class="rounded-circle" data-aos="zoom-in" data-aos-duration="2000" />
+                <h5 class="text-center">DEVELOPMENT</h5>
+                <p class="text-center p-1">
+                  WordPress<br />
+                  E-commerce <br />Custom web application <br />Website
+                  (Responsive & SEO ready)
+                </p>
+                <span class="text-center span-1"> View Details</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- last three div section -->
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="card crd-6" style="border: none; background-color: #e3e3ed">
+            <div class="row">
+              <!-- div 4 -->
+              <div class="col-sm-2 col-md-4 col-lg-4">
+                <img src="image/d4.png" class="rounded-circle img-effect" data-aos="zoom-in" data-aos-duration="2000" />
+                <h5 class="text-center">SEO</h5>
+                <p class="text-center p-1">
+                  Onpage SEO <br />
+                  Offpage SEO <br />
+                  Keyword Research <br />
+                  Digital Asset Audit
+                </p>
+                <span class="text-center span-1"> View Details</span>
+              </div>
+              <!-- div 5 -->
+              <div class="col-sm-2 col-md-4 col-lg-4">
+                <img src="image/d5.png" class="rounded-circle" data-aos="zoom-in" data-aos-duration="2000" />
+                <h5 class="text-center">PAID MARKETING</h5>
+                <p class="text-center p-1">
+                  Social Media Ads <br />Search Engine Marketing <br />Pay per
+                  Click Advertising <br />Media plans and Strategy
+                </p>
+                <span class="text-center span-1"> View Details</span>
+              </div>
+              <!-- div 6 -->
+              <div class="col-sm-2 col-md-4 col-lg-4">
+                <img src="image/d6.png" class="rounded-circle" data-aos="zoom-in" data-aos-duration="2000" />
+                <h5 class="text-center">APP DEVELOPMENT</h5>
+                <p class="text-center p-1">
+                  iOS Development <br />
+                  Hybrid Development <br />Andriod Development <br />
+                  React Native Development
+                </p>
+                <span class="text-center span-1"> View Details</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- third design end -->
+
+  <!-- Slider main container -->
+  <div class="container marq">
+    <marquee direction="right" class="words"> OUR WORK </marquee>
+  </div>
+
+  <!-- slider design start -->
+
+  <div class="carousel" data-flickity='{ "autoPlay": true }'>
+    <div class="carousel-cell" style="background-image: url(image/SLD-1.png)">
+      <img src="image/top-slide.png" class="top-sld" />
+      <img src="image/pink-sld.png" class="sld-1" />
+      <img src="image/mobile-sld.png" class="mob-sld" />
+    </div>
+
+    <div class="carousel-cell" style="background-image: url(image/SLD-2.jpg)">
+      <img src="image/top-slide.png" class="top-sld" />
+      <img src="image/page-sld.jpg" class="sld-1" />
+      <img src="image/mobile-sld.png" class="mob-sld" />
+    </div>
+    <div class="carousel-cell" style="background-image: url(image/SLD-3.png)">
+      <img src="image/top-slide.png" class="top-sld" />
+      <img src="image/blue-sld.jpg" class="sld-1" />
+      <img src="image/mobile-sld.png" class="mob-sld" />
+    </div>
+    <div class="carousel-cell" style="background-image: url(image/SLD-4.png)">
+      <img src="image/top-slide.png" class="top-sld" />
+      <img src="image/yello-sld.png" class="sld-1" />
+      <img src="image/mobile-sld.png" class="mob-sld" />
+    </div>
+    <div class="carousel-cell" style="background-image: url(image/SLD-5.png)">
+      <img src="image/top-slide.png" class="top-sld" />
+      <img src="image/orange-car-sld.jpg" class="sld-1" />
+      <img src="image/mobile-sld.png" class="mob-sld" />
+    </div>
+    <div class="carousel-cell" style="background-image: url(image/SLD-6.png)">
+      <img src="image/top-slide.png" class="top-sld" />
+      <img src="image/data-sld.jpg" class="sld-1" />
+      <img src="image/mobile-sld.png" class="mob-sld" />
+    </div>
+  </div>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+  <button type="button" class="btn btn-2 btn-secondary">
+    VIEW ALL CASE STUDIES >
+  </button>
+
+  <!-- tags start -->
+  <div class="tags">
+    <div class="row">
+      <div class="col-lg-4 col-xl-4 col-md-4 col-sm-6">
+        <div class="card card-1">
+          <img src="image/e1.png" class="" alt="" />
+        </div>
+      </div>
+      <div class="col-lg-4 col-xl-4 col-md-4 col-sm-6">
+        <div class="card card-1">
+          <img src="image/e2.png" class="" alt="" />
+        </div>
+      </div>
+      <div class="col-lg-4 col-xl-4 col-md-4 col-sm-6">
+        <div class="card card-1" style="border-right: 2px solid white">
+          <img src="image/e3.png" class="" alt="" />
+        </div>
+      </div>
+      <div class="col-lg-4 col-xl-4 col-md-4 col-sm-6">
+        <div class="card card-1">
+          <img src="image/e4.png" class="" alt="" />
+        </div>
+      </div>
+      <div class="col-lg-4 col-xl-4 col-md-4 col-sm-6">
+        <div class="card card-1">
+          <img src="image/e5.png" class="" alt="" />
+        </div>
+      </div>
+      <div class="col-lg-4 col-xl-4 col-md-4 col-sm-6">
+        <div class="card card-1" style="border-right: 2px solid white">
+          <img src="image/e6.png" class="" alt="" />
+        </div>
+      </div>
+      <div class="col-lg-4 col-xl-4 col-md-4 col-sm-6">
+        <div class="card card-1">
+          <img src="image/e7.png" class="" alt="" />
+        </div>
+      </div>
+      <div class="col-lg-4 col-xl-4 col-md-4 col-sm-6">
+        <div class="card card-1">
+          <img src="image/e8.png" class="" alt="" />
+        </div>
+      </div>
+      <div class="col-lg-4 col-xl-4 col-md-4 col-sm-6">
+        <div class="card card-1" style="border-right: 2px solid white">
+          <img src="image/e9.png" class="" alt="" />
+        </div>
+      </div>
+      <div class="col-lg-4 col-xl-4 col-md-4 col-sm-6">
+        <div class="card card-1">
+          <img src="image/e10.png" class="" alt="" />
+        </div>
+      </div>
+      <div class="col-lg-4 col-xl-4 col-md-4 col-sm-6">
+        <div class="card card-1">
+          <img src="image/e11.png" class="" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- tags end -->
+
+  <!-- lets talk business start section-->
+  <!-- <div class="business">
+      <div class="container">
+        <h1 class="title-4 text-center text-white">Lets's Talk Business</h1>
+        <h2 class="text-drop text-center text-white">A Startup</h2>
+        <div class="form-group fw-bold">
+          <label for="exampleFormControlSelect1"></label>
+          <select
+            class="form-control form-design fw-bold btn-drop"
+            id="exampleFormControlSelect1"
+          >
+            <option>A Startup</option>
+            <option>A Business</option>
+            <option>An Agency</option>
+            <option>A Non Profit</option>
+            <option>Other</option>
+          </select>
+        </div>
+
+        <h2 class="text-drop text-center text-white">Interested In</h2>
+        <div class="form-group fw-bold">
+          <label for="exampleFormControlSelect1"></label>
+          <select
+            class="form-control form-design fw-bold btn-drop"
+            id="exampleFormControlSelect1"
+          >
+            <option>Design Services</option>
+            <option>Website</option>
+            <option>Mobile App</option>
+            <option>Social Media</option>
+            <option>S.E.O</option>
+            <option>Multiple Services</option>
+            <option>Others</option>
+          </select>
+        </div>
+
+        <!-- name input field -->
+  <!-- <h2 class="text-drop text-center text-white">Your NAME IS</h2>
+        <div class="card flex-row card-fields" style="border: none">
+          <input
+            type="email"
+            class="form-control text-white fw-bold btn-drop-2"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+            placeholder="Mr.Ali"
+          />
+        </div>
+        <h2 class="text-drop text-center text-white">Your Company Name Is</h2>
+        <div class="card flex-row card-fields" style="border: none">
+          <input
+            type="email"
+            class="form-control fw-bold btn-drop-3"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+            placeholder="Microsoft"
+          />
+        </div>
+        <h2 class="text-drop text-center text-white">Your Contact No Is</h2>
+        <div class="card flex-row card-fields" style="border: none">
+          <input
+            type="email"
+            class="form-control fw-bold btn-drop-4"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+            placeholder="-10"
+          />
+        </div>
+
+        <h2 class="text-drop text-center text-white">Your Email ID</h2>
+        <div class="card flex-row card-fields" style="border: none">
+          <input
+            type="email"
+            class="form-control fw-bold btn-drop-2"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+            placeholder="email@company.com"
+          />
+        </div>
+
+        <h2 class="text-drop-2 text-center text-white">
+          How did you hear about us
+        </h2>
+        <div class="form-group fw-bold">
+          <label for="exampleFormControlSelect1"></label>
+          <select
+            class="form-control form-design fw-bold btn-drop"
+            id="exampleFormControlSelect1"
+          >
+            <option>Google</option>
+            <option>Facebook</option>
+            <option>Email</option>
+            <option>Reffered By Someone</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <button type="button" class="btn btn-4 btn-danger">SEND MESSAGE</button>
+      </div>
+    </div> -->
+
+  <!-- lets talk business end section-->
+  <!-- bootstrap popper -->
+  <!-- ------------------------------MULTIPLE-PAGES-Footer-SCRIPT-LINK-============================= -->
+  <script id="replace_with_footer" src="/javascript/footer.js"></script>
+  <!-- ------------------------------MULTIPLE-PAGES-Footer-SCRIPT-LINK-END-============================= -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+  <!-- for bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous">
+  </script>
+  <!-- for animation -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!-- custom javaScript -->
+  <script src="logic.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,292 @@
+body{
+    background-color: honeydew;
+}
+
+.text{
+    padding: 5rem 10rem;
+}
+
+/* lets talk start */
+.business{
+    background-color:rgb(241, 75, 75) ;
+}
+.title-4{
+    font-size: 6rem;
+    font-weight: 700;
+    margin-top: 0rem;
+}
+.btn-drop{
+    height: 56px;
+    width: 16rem;
+    float: right;
+    margin-top: -56px;
+    margin-right: 13rem;
+    background-color: rgb(241, 75, 75);
+    color: lightcoral;
+    border: none;
+    font-size: 30px;
+}
+.btn-drop :hover{
+    background-color: rgb(241, 75, 75);
+    color: lightcoral;
+    border: none;
+}
+
+.btn-drop-2{
+    height: 30px;
+    width: 16rem;
+    margin-top: -43px;
+    background-color: rgb(241, 75, 75);
+    color: lightcoral;
+    border: none;
+    font-size: 30px;
+    margin-left: 42rem;
+}
+.btn-drop-2 :hover{
+    background-color: rgb(241, 75, 75);
+    color: lightcoral;
+    border: none;
+}
+
+.btn-drop-3{
+    height: 30px;
+    width: 16rem;
+    margin-top: -43px;
+    background-color: rgb(241, 75, 75);
+    color: lightcoral;
+    border: none;
+    font-size: 30px;
+    margin-left: 46rem;
+}
+.btn-drop-3 :hover{
+    background-color: rgb(241, 75, 75);
+    color: lightcoral;
+    border: none;
+}
+
+.btn-drop-4{
+    height: 30px;
+    width: 16rem;
+    margin-top: -43px;
+    background-color: rgb(241, 75, 75);
+    color: lightcoral;
+    border: none;
+    font-size: 30px;
+    margin-left: 44rem;
+}
+.btn-drop-4 :hover{
+    background-color: rgb(241, 75, 75);
+    color: lightcoral;
+    border: none;
+}
+
+.text-drop-2{
+    margin-left: -14rem;
+}
+
+.btn-4{
+    background-color: white;
+    border-color: white;
+    color:  rgb(241, 75, 75);
+    margin-left: 32rem;
+    width: 14%;
+    margin-bottom: 2rem;
+    
+}
+
+.btn-4:hover{
+    background-color:  rgb(241, 75, 75);
+    border-color: white;
+    color: white;
+}
+
+/* .design-font{
+    font-size: 5rem;
+    margin-left: 90px;
+    margin-top: 15px;
+    color: indianred;
+} */
+
+/* start section 4 */
+.ban-about{
+    margin-top: 7rem;
+    width: 100%;
+}
+
+.theme{
+ background-color: rgb(241, 75, 75);
+ padding: 2pc 0;
+}
+
+.design-font{
+    font-size: 4rem;
+    padding: 1rem 7rem;
+    color: crimson;
+}
+/* end section 4 */
+
+/* lets talk end */
+
+
+.mini-call{
+    margin-top: 5rem;
+   padding: 2rem 0;
+   width:50% ; 
+   border-color: rgb(241, 75, 75);
+   border-width: 2px;
+}
+
+.main-head{
+    font-size: 5rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+
+.img-call{
+    margin-left: 13rem;
+    margin-top: -125px;
+}
+
+ /* -------------------------------------------------NOW START MEDIA QUERIES ------------------------------------ */
+
+/* start mobile */
+@media screen and (max-width: 766px) {
+.btn-4{
+    margin-left: 9rem;
+    width: 35%;
+}
+.btn-drop{
+    margin-top: -19px;
+    margin-right: 6rem;
+}
+.btn-drop-2 {
+    margin-top: -34px;
+    margin-left: 5rem;
+}
+.heading-tags{
+    margin-bottom: 41px;
+}
+.btn-drop-3 {
+    margin-top: -36px;
+    margin-left: 5rem;
+}
+.btn-drop-4 {
+    margin-top: -36px;
+    margin-left: 5rem;
+}
+.text-drop-2 {
+    margin-left: 1rem;
+}
+.mobile-img{
+    width: 100%;
+}
+.title-4 {
+    font-size: 2rem;
+}
+.text {
+    padding: 5rem 0rem;
+}
+.design-font {
+    margin-left: 3rem;
+}
+.img-call {
+    margin-left: 3rem
+}
+.main-head {
+    font-size: 3rem;
+}
+}
+/* START tab */
+@media screen and (min-width: 767px) and (max-width: 991px) {
+    .design-font{
+            padding: 1rem 2rem;
+    }
+    .btn-drop {
+        margin-right: 8rem;
+    
+    }
+.main-head {
+    font-size: 4rem;
+}
+    .btn-drop-2 {
+        margin-left: 28rem;
+      }
+      .btn-drop-3 {
+        margin-left: 32rem;
+        width: 169px;
+    }
+
+    .btn-drop-4 {   
+         margin-left: 30rem;
+        width: 14rem;
+      }
+      .btn-4 {
+        margin-left: 20rem;
+    
+    }
+    .title-4 {
+        font-size: 4rem;
+    }
+    .img-call {
+        margin-left: 8rem;
+      }
+    
+      .mobile-img{
+        width: 100%;
+    }
+    .btn-drop {
+        margin-right: 1rem;
+}
+}
+/* START LAPTOP */
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .btn-drop {
+        margin-right: 8rem;
+    
+    }
+    .btn-drop-2 {
+        margin-left: 36rem;
+      }
+      .btn-drop-3 {
+        margin-left: 40rem;
+    }
+    .btn-drop-4 {
+        margin-left: 38rem;
+      }
+      .btn-4 {
+        margin-left: 28rem;
+    
+    }
+    .img-call {
+        margin-left: 10rem;
+      }
+      .title-4 {
+        font-size: 4rem;
+      }
+    
+      .mobile-img{
+        width: 100%;
+    }
+}
+
+  /* START X-LARGE */
+
+  @media screen and (min-width: 1200px) and (max-width: 1450px) {
+    .btn-drop {
+        margin-right: 18rem;
+  }
+  .btn-drop-2 {
+    margin-left: 47rem;
+}
+.btn-drop-3 {
+    margin-left: 52rem;
+
+  }
+  .btn-4 {
+    margin-left: 37rem;
+  }
+  .img-call {
+    margin-left: 16rem;
+  }
+}

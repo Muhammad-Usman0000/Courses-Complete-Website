@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+   box-sizing: border-box;
+}
+
+.bg-main{
+    background-color: whitesmoke;
+}
+
+/* start section 2 */
+.text-1{
+    padding: 5rem 0;
+    font-weight: 500;
+    font-size: 3rem;
+}
+.head{
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 5rem;
+}
+.tag{
+    font-size: 21px;
+}
+.main-ban{
+    width: 116%;
+    padding: 1rem 0;
+    margin-left: -8rem;
+}
+
+/* end section 2 */
+
+/* start section 3 */
+.hd-1{
+    padding-top: 10rem;
+    padding-bottom: 2rem;
+    font-size: 42px;
+}
+.icon-img{
+    padding: 1rem 6rem;
+}
+.head-3{
+    font-size: 20px;
+}
+.text-3{
+    font-size: larger;
+}
+.design-3{
+    color: rgb(241, 75, 75);
+}
+/* end section 3 */
+
+/* start section 4 */
+.ban-about{
+    margin-top: 7rem;
+    width: 100%;
+}
+
+.theme{
+ background-color: rgb(241, 75, 75);
+ padding: 2pc 0;
+}
+
+.design-font{
+    font-size: 4rem;
+    padding: 1rem 7rem;
+    color: crimson;
+}
+/* end section 4 */
+.mob-container{
+    margin-top: 10rem;
+}
+.mobile-design{
+    width: 100%;
+}
+ /* -------------------------------------------------NOW START MEDIA QUERIES ------------------------------------ */
+
+/* start mobile */
+@media screen and (max-width: 766px) {
+    .mobile-design{
+        width: 100%;
+    }
+    .mob-container{
+        margin-top: 2rem;
+    }
+    .icon-img {
+        padding: 1rem 10rem;
+    }
+    .hd-1 {
+        padding-top: 3rem;
+        padding-bottom: 1rem;
+        font-size: 23px;
+    }
+    .tag {
+        font-size: 15px;
+    }
+    .head {
+        font-size: 45px;
+        font-weight: 700;
+        margin-top: 5rem;
+    }
+    .ban-about {
+        margin-top: 3rem;
+    } 
+    .text-1{
+        font-size: 2rem;
+    }  
+    .design-font{
+        margin-left: 5rem;
+    } 
+}
+
+/* START tab */
+@media screen and (min-width: 767px) and (max-width: 991px) {
+    .icon-img {
+        padding: 1rem 8rem;
+    }
+    .design-font{
+        margin-left: -50px;
+    }
+    .main-ban{
+        width: 100%;
+    }
+    .mob-container{
+        margin-top: 4rem;
+    }
+}
+/* START LAPTOP */
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .mobile-design{
+        width: 100%;
+    }
+    .icon-img {
+        padding: 1rem 5rem;
+    }
+}
+
+   /* START X-LARGE */
+
+@media screen and (min-width: 1200px) and (max-width: 1450px) {
+    .icon-img {
+        padding: 1rem 7rem;
+    }
+}

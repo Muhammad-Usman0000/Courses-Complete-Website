@@ -1,0 +1,607 @@
+
+/* Main Content Start */
+/* .yellow-main{
+    background: linear-gradient(to bottom, rgb(255, 207, 48) , rgb(253, 212, 47),  rgb(248, 221, 40));
+    background-color:rgb(248, 221, 40) ;
+    height: 40rem;
+}  */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+li {
+    list-style: none;
+}
+
+.main-yellow{
+    width: 100%;
+     /* height: 40rem; */
+}
+  /* Main content End */
+
+
+  /* Second Section Start */
+ .title-2{
+    font-size: 6rem;
+    margin-left: 22rem;
+    margin-top: -12rem;
+ }
+.text-3{
+    margin-top: 1rem;
+    margin-left: 39rem;
+    margin-right: 13rem;
+    font-size: 17px;
+    color: rgb(44, 42, 42);
+}
+.btn-1{
+    width: 12rem;
+    margin-left: 50rem;
+    margin-top: 3rem;
+    background-color: rgb(241, 75, 75);
+    color: white;
+    border-color: rgb(241, 75, 75) ;
+}
+.btn-1:hover{
+    background-color: white;
+    color: rgb(241, 75, 75);
+    border-color: rgb(241, 75, 75);
+}
+  /* Second Section end */
+
+  /* third design start */
+.title-3{
+    margin: 5rem 0;
+    font-weight: 700;
+    font-size: 5rem;
+}
+.rounded-circle{
+    margin-left: 100px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 137px;
+    height: 139px;
+}
+
+.p-1{
+    margin: 1rem 0;
+}
+
+.span-1{
+    color: rgb(241, 75, 75);
+    margin-left: 8rem;
+}
+.design-round{
+    height: 68rem;
+    background-color:  #e3e3ed;   
+}
+
+
+  /* third design end */
+.marq{
+    width:200%;
+    height: 15rem;
+}
+.words{
+    height: 23rem;
+    font-size: 15rem;
+    color: darkgrey;
+    font-weight: 700;
+}
+
+/* slider start */
+
+.carousel {
+	margin-top: 8%;
+}
+.carousel-cell {
+	width: 60%;
+	height:500px;
+	margin-right: 40px;
+  margin-left: 40px;
+	border-radius: 15px;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+}
+.carousel-cell:before {
+	display: block;
+	content: '';
+}
+.flickity-button{
+background-color: red;
+color: white;
+margin-left: 40px;
+margin-right: 40px;
+}
+.top-sld{
+  width: 100%;
+}
+.mob-sld{
+    margin-top: 113px;
+    margin-left: -231px;
+}
+.sld-1{
+    margin-left: 34rem;
+    margin-top: 7rem;
+}
+.sld-2{
+    margin-left: 34rem;
+    margin-top: 6rem;
+}
+.btn-2{
+    width: 15rem;
+    margin-left: 35rem;
+    height: 4rem;
+    margin-top: 4rem;
+    background-color: rgb(241, 75, 75);
+    color: white;
+    border-color: rgb(241, 75, 75) ;
+}
+.btn-2:hover{
+    background-color: white;
+    color: rgb(241, 75, 75);
+    border-color: rgb(241, 75, 75);
+}
+
+
+/* tags section */
+.tags{
+    margin-top: 9rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+.card-1{
+    margin: 0px -12px;
+    border-left:2px solid white;
+    border-top: 2px solid white;
+}
+
+/* lets talk start */
+.business{
+    background-color:rgb(241, 75, 75) ;
+}
+.title-4{
+    font-size: 6rem;
+    font-weight: 700;
+    margin-top: 10rem;
+}
+.btn-drop{
+    height: 56px;
+    width: 16rem;
+    float: right;
+    margin-top: -56px;
+    margin-right: 13rem;
+    background-color: rgb(241, 75, 75);
+    color: #746e6e;
+    border: none;
+    font-size: 30px;
+}
+.btn-drop :hover{
+    background-color: rgb(241, 75, 75);
+    color: #746e6e;
+    border: none;
+}
+
+.btn-drop-2{
+    height: 30px;
+    width: 16rem;
+    margin-top: -43px;
+    background-color: rgb(241, 75, 75);
+    color: lightcoral;
+    border: none;
+    font-size: 30px;
+    margin-left: 42rem;
+}
+.btn-drop-2 :hover{
+    background-color: rgb(241, 75, 75);
+    color: lightcoral;
+    border: none;
+}
+
+.btn-drop-3{
+    height: 30px;
+    width: 16rem;
+    margin-top: -43px;
+    background-color: rgb(241, 75, 75);
+    color: lightcoral;
+    border: none;
+    font-size: 30px;
+    margin-left: 46rem;
+}
+.btn-drop-3 :hover{
+    background-color: rgb(241, 75, 75);
+    color: lightcoral;
+    border: none;
+}
+
+.btn-drop-4{
+    height: 30px;
+    width: 16rem;
+    margin-top: -43px;
+    background-color: rgb(241, 75, 75);
+    color: lightcoral;
+    border: none;
+    font-size: 30px;
+    margin-left: 44rem;
+ 
+}
+.btn-drop-4 :hover{
+    background-color: rgb(241, 75, 75);
+    color: lightcoral;
+    border: none;
+}
+
+.text-drop-2{
+    margin-left: -14rem;
+}
+
+.btn-4{
+    background-color: white;
+    border-color: white;
+    color:  rgb(241, 75, 75);
+    margin-left: 32rem;
+    width: 14%;
+    margin-bottom: 20px;
+    
+}
+
+.btn-4:hover{
+    background-color:  rgb(241, 75, 75);
+    border-color: rgb(241, 75, 75);
+    color: white;
+}
+/* lets talk end */
+
+
+ /* -------------------------------------------------NOW START MEDIA QUERIES ------------------------------------ */
+
+/* start mobile */
+@media screen and (max-width: 767px) {
+.title-3 {
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+.span-1{
+    margin-left: 10rem;
+}
+.img-effect{
+    margin-left: 8rem;
+}
+.tags{
+    margin-left: 26rem;
+}
+/* .carousel{
+    margin-top: 75rem;
+} */
+.marq{
+    width: 97%;
+}
+.words {
+    height: 19rem;
+    font-size: 8rem;
+    margin-top: 3rem;
+    width: 23rem;
+}
+.title-2 {
+    font-size: 1rem;
+    margin-left: 5rem;
+    margin-top: 14rem;
+}
+.text-3 {
+    margin-top: 2px;
+    margin-left: 12rem;
+    margin-right: 2rem;
+    font-size: 8px;
+}
+.btn-1 {
+    width: 5rem;
+    font-size: 5px;
+    margin-left: 13rem;
+    margin-top: 1rem;
+}
+.card-1{
+    /* margin:0 7px; */
+    margin-right: 20px;
+    margin-left: -23rem;
+}
+
+.btn-2 {
+    width: 15rem;
+    margin-left: 6rem;
+}
+.rounded-circle{
+    margin-left: 8rem;
+}
+.carousel-cell {
+    width: 86%;
+    height: 210px;
+    margin-right: 40px;
+    margin-left: -16px;
+    margin-top: 0rem;
+}
+.sld-1 {
+    margin-left: 232px;
+    margin-top: 29px;
+    width: 19%;
+}
+.mob-sld {
+    margin-top: 35px;
+    margin-left: -105px;
+    width: 35%;
+}
+.top-sld {
+    margin-top: -20px;
+}
+.design-round{
+    height: 30%;
+}
+}
+
+
+/* START tab */
+@media screen and (min-width: 767px) and (max-width: 991px) {
+    .title-2 {
+        font-size: 3rem;
+        margin-left: 17rem;
+        margin-top: 39rem;
+    }
+    .text-3 {
+        margin-top: 1rem;
+        margin-left: 24rem;
+        margin-right: 7rem;
+        font-size: 12px;
+    }
+    .sld-1 {
+        margin-left: 14rem;
+        margin-top: 8rem;
+    }
+
+    .mob-sld {
+        margin-top: 122px;
+        margin-left: -231px;
+    }
+
+    .words {
+        height: 14rem;
+        font-size: 7rem;
+    }
+
+    .btn-1 {
+        margin-left: 24rem;
+        margin-top: 2rem;
+    }
+
+    .span-1{
+        margin-left: 4rem;
+    }
+
+    .rounded-circle{
+        margin-left: 2rem;
+    }
+    .title-3{
+        font-size: 3rem;
+    }
+    .btn-2{
+        margin-left: 17rem;
+    }
+    .top-sld{
+        margin-top: -9px;
+    }
+}
+
+/* START LAPTOP */
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .btn-2 {
+        margin-left: 25rem;
+    }
+    .sld-1 {
+        margin-left: 24rem;
+        margin-top: 111px;
+    }
+    .sld-2 {
+        margin-left: 24rem;
+        margin-top: 118px;
+    }
+
+    .span-1{
+        margin-left: 6rem;
+    }
+
+    .rounded-circle{
+        margin-left: 5rem;
+    }
+
+    .title-2 {
+        font-size: 4rem;
+        margin-left: 14rem;
+        margin-top: 65rem;
+    }
+    .btn-1 {
+        margin-left: 32rem;
+    }
+    .text-3{
+        font-size: 15px;
+        margin-left: 30rem;
+    }
+
+    .title-3{
+        font-size: 3rem;
+    }
+    .top-sld {
+        margin-top: -2px;
+    }
+    .paint-img {
+        margin-top: -25rem;
+    }
+    /* yellow banner design setting start here */
+ 
+}
+
+   /* START X-LARGE */
+
+@media screen and (min-width: 1200px) and (max-width: 1450px) {
+    .span-1{
+        margin-left: 10rem;
+    }
+
+    .rounded-circle{
+        margin-left: 9rem;
+    }
+    /* .title-2{
+        font-size: 6rem;
+        margin-left: 22rem;
+        margin-top: 99rem;
+     } */
+    .text-3{
+        margin-top: 1rem;
+        margin-left: 41rem;
+        margin-right: 13rem;
+        font-size: 17px;
+        color: rgb(44, 42, 42);
+    }
+    .btn-1{
+        width: 12rem;
+        margin-left: 46rem;
+        margin-top: 0rem;
+    }
+
+}
+
+
+
+/* .................................... */
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+}
+.navbar-nav{
+    margin-left: 5rem;
+}
+.dropdown-menu{
+    width: 600%;
+}
+
+.dropdown-item{
+    margin-top: -33px;
+    margin-left: 23px;
+}
+.btn-1{
+    background-color: rgb(241, 75, 75);
+    border-color: rgb(241, 75, 75);
+    padding: 5px 30px;
+    margin-left: 10rem;
+}
+
+.btn-1:hover{
+    background-color: white;
+    border-color: rgb(241, 75, 75);
+    color: rgb(241, 75, 75) ;
+
+}
+.nav-col{
+    background-color:honeydew; 
+    width: 48%;
+}
+
+ /* -------------------------------------------------NOW START MEDIA QUERIES ------------------------------------ */
+
+/* start mobile */
+@media screen and (max-width: 766px) {
+    .nav-des{
+        margin-left: -45px;
+    }
+
+    .navbar-nav{
+        margin-left: 0rem;
+    }
+
+.btn-1{
+    margin-left: -4rem;
+}
+.nav-row{
+    width: 204%;
+}
+.dropdown-menu{
+    width: 16rem;
+}
+.nav-col{
+    margin-left: -263px;
+    margin-top: 32rem;
+    width: 90%;
+}
+}
+
+/* START tab */
+@media screen and (min-width: 767px) and (max-width: 991px) {
+    .nav-des{
+        margin-left: -45px;
+    }
+
+    .navbar-nav{
+        margin-left: 0rem;
+    }
+
+.btn-1{
+    margin-left: -4rem;
+}
+.nav-row{
+    width: 40%;
+}
+.dropdown-menu{
+    width: 33rem;
+}
+.nav-col{
+    margin-left: 64px;
+    width: 46%;
+}
+}
+
+/* START LAPTOP */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .navbar-nav{
+        margin-left: 1rem;
+    }
+
+    .nav-col {
+        width: 47%;
+  }
+
+  .dropdown-menu {
+    width: 560%;
+}
+.btn-1 {
+    margin-left: 1rem;
+
+}
+}
+
+  /* START X-LARGE */
+  @media screen and (min-width: 1200px) and (max-width: 1450px) {
+    .nav-col {
+        width: 47%;
+  }
+
+  .dropdown-menu {
+    width: 560%;
+}
+  }
+

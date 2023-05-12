@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+   box-sizing: border-box;
+}
+/* main content start */
+.image-main{
+    width: 100%;
+}
+.headingCS{
+    margin-top: -25rem;
+    font-weight: 700;
+    font-size: 50px;
+}
+.paraCS{
+    font-size: 26px;
+    font-weight: 500;
+    margin-top: 22px;
+}
+/* main content end */
+
+.nav-design{
+    padding: 0 26rem;
+    margin-top: 5rem;
+    border: none;
+}
+
+.nav-con{
+    color: black;
+    border: none;
+}
+
+.nav-con :hover{
+    color:  rgb(241, 75, 75);
+}
+
+.heading-mainPortfolio{
+    margin-top: 24rem;
+    font-size: 38px;
+    font-weight: 500;
+}
+
+.breadcrumb-portfoilio{
+    padding: 5rem 18rem;
+}
+.crumb-item{
+    font-size: 20px;
+    padding: 20px;
+    color: black;
+}
+
+.crumb-item:hover{
+    color:  rgb(241, 75, 75);
+}
+
+p.one{
+    width: 13px;
+    border-style: groove;
+    border-width: 1px;
+    border-color: rgb(241, 75, 75);
+    margin-left: 11pc;
+}
+
+ /* -------------------------------------------------NOW START MEDIA QUERIES ------------------------------------ */
+
+/* start mobile */
+@media screen and (max-width: 766px) {
+    .heading-mainPortfolio {
+        margin-top: 9rem;
+        font-size: 29px;
+    }
+    .nav-design {
+        padding: 0px 2rem;
+        margin-top: 5rem;
+        font-size: 11px;
+    }
+
+    p.one{
+        margin-left: 8pc;
+    }
+
+    .paraCS {
+        font-size: 11px;
+        margin-top: 0px;
+    }
+    .headingCS {
+        margin-top: -8rem;
+        font-size: 22px;
+    }
+}
+
+/* START tab */
+@media screen and (min-width: 767px) and (max-width: 991px) {
+    .headingCS {
+        margin-top: -15rem;
+        font-size: 44px;
+    }
+    .paraCS {
+        font-size: 20px;
+    }
+
+    .nav-design {
+        padding: 0 9rem;
+        margin-top: 4rem;
+}
+p.one{
+    margin-left: 8pc;
+}
+.heading-mainPortfolio {
+    margin-top: 9rem;
+}
+
+
+
+}
+/* START LAPTOP */
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .nav-design {
+        padding: 0 16rem;
+    }
+    p.one{
+        margin-left: 8pc;
+    }
+    
+    .heading-mainPortfolio {
+        margin-top: 10rem;
+    }
+    .headingCS{
+        margin-top: -16rem;
+    }
+}
+   /* START X-LARGE */
+
+   @media screen and (min-width: 1200px) and (max-width: 1450px) {
+    
+    .nav-design {
+        padding: 0 27rem;
+    }
+    p.one{
+        margin-left: 11pc;
+    }
+    
+}
+

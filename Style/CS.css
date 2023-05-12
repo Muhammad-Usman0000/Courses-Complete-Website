@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+   box-sizing: border-box;
+}
+
+.crd-wid{
+    max-width: 1100px;
+     margin-top: 3rem
+}
+
+/* main content start */
+.image-main{
+    width: 100%;
+}
+.headingCS{
+    margin-top: -21rem;
+    font-weight: 700;
+    font-size: 50px;
+}
+.paraCS{
+    font-size: 26px;
+    font-weight: 500;
+    margin-top: 22px;
+}
+/* main content end */
+
+/* start heading section */
+.heading-mainCS{
+    font-size: 70px;
+    font-weight: 600;
+    margin-top: 20rem;
+}
+.col-design{
+    padding: 33px;
+}
+.col-text{
+    padding: 37px;
+    font-size: 19px;
+}
+.col-text-1{
+    padding: 0px;
+    font-size: 19px;
+}
+.col-text-2{
+    padding: 19px;
+    font-size: 19px;
+}
+.card-mrg{
+    padding: 38px;
+}
+.count{
+    font-size: 52px;
+    color: rgb(241, 75, 75);
+    font-weight: 700;
+}
+.count-text{
+    font-size: 29px;
+    margin-top: -18px;
+}
+.count-text:hover{
+    color: rgb(241, 75, 75) ;
+}
+.vr{
+    height: 116px;
+    margin-left: 198px;
+    margin-top: -121px;
+}
+
+.containerHoverEffect:hover{
+    opacity: 0.6;
+}
+/* end heading section */
+
+
+ /* -------------------------------------------------NOW START MEDIA QUERIES ------------------------------------ */
+
+/* start mobile */
+@media screen and (max-width: 766px) {
+    .heading-mainCS {
+        font-size: 40px;
+        margin-top: 9rem;
+}
+.paraCS {
+    font-size: 11px;
+    margin-top: 0px;
+}
+.headingCS {
+    margin-top: -8rem;
+    font-size: 22px;
+}
+}
+/* START tab */
+@media screen and (min-width: 767px) and (max-width: 991px) {
+
+    .heading-mainCS {
+        margin-top: 13rem;
+}
+    .count-text{
+        font-size: 15px;
+    }
+    .card-text{
+        font-size: 13px;
+    }
+    .count{
+        font-size: 36px;
+    }
+
+    .vr{
+        height: 137px;
+    margin-left: 194px;
+    margin-top: -121px;
+    color: #7a7878;
+    }
+    .img-fluid{
+        margin-top: 10px;
+    }
+    .headingCS {
+        margin-top: -15rem;
+        font-size: 44px;
+    }
+    .heading-mainPortfolio {
+        margin-top: 9rem;
+    }
+    .paraCS {
+        font-size: 20px;
+    }    
+}
+
+/* START LAPTOP */
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .vr{
+        height: 137px;
+    margin-left: 156px;
+    margin-top: -121px;
+    color: #7a7878;
+    }
+
+    .heading-mainPortfolio {
+        margin-top: 10rem;
+    }
+    .headingCS{
+        margin-top: -16rem;
+    }
+
+    .heading-mainCS {
+        margin-top: 12rem;
+}
+}
+
+   /* START X-LARGE */
+
+   @media screen and (min-width: 1200px) and (max-width: 1450px) {
+    .crd-wid{
+        max-width: 1297px;
+    }
+   }

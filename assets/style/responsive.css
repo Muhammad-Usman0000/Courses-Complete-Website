@@ -1,0 +1,741 @@
+
+@media only screen and (max-width: 767px) {
+    #Mobile-Development{
+        width: 100%;
+    }
+.banner_mobile-Development{
+    width: 100%;
+    height: 48rem;
+}
+.banner_Side-Card{
+    width: 100%;
+}
+#Third-Section{
+    width: 100%;
+}
+.Logos_And_Card{
+    width: 100%;
+}
+.tabs{
+    width: 400px;
+    transform: translate(3%,-1%);
+}
+.Part-two{
+    width: 0px;
+}
+.carD{
+    width:70% !important;
+}
+.social_Sites-of-Company > ul {
+    padding-right: 0px !important;
+}
+.Mobile-Screen-two img{
+    padding-left: 0rem !important;
+}
+    .leftTextImage {
+        width: 27rem;
+        top: 0rem;
+    }
+
+    .googleImg {
+        margin-left: 1rem !important;
+        width: 5rem;
+        padding: 1rem;
+    }
+
+    /* .bgImage {
+        width: 97%;
+        height: 50vh;
+    } */
+    .leftTextImage {
+        padding: 2rem 2rem;
+       
+    }
+
+    .secondBannerPara {
+        padding: 1rem 0rem;
+    }
+
+    .qualityCss {
+        margin-top: 1rem;
+    }
+
+    .topIcon {
+        font-size: 1rem;
+    }
+
+    .BottomIcon {
+        font-size: 1rem;
+    }
+
+    .customNav {
+        width: 20rem;
+    }
+
+    .fifthTab {
+        padding-left: 0rem !important;
+        font-size: 0.7rem;
+    }
+
+    .customTabContent {
+        padding: 1rem 2rem;
+        width: 20rem;
+        height: 27rem;
+        font-size: 1rem;
+    }
+
+    .bgImageFifthSection {
+        height: 65rem;
+    }
+
+    .monthsDiv {
+        margin-left: 0rem !important;
+    }
+
+    .forPadding {
+        padding: 1.3rem 3rem;
+    }
+
+    .paddBtmCss {
+        padding-bottom: 2rem;
+    }
+
+    .engagementPara {
+        padding: 1rem 2rem;
+    }
+
+    .secTabSectnHeading {
+        padding: 1rem 1rem 0rem 1rem;
+    }
+
+    .customIndicatorCss {
+        background-color: transparent !important;
+        top: 53rem !important;
+        margin-top: 0rem;
+    }
+
+    .ecomWebPara {
+        padding: 1rem 3rem;
+    }
+
+    .processImage {
+        text-align: center;
+    }
+
+    .mainBox {
+        padding: 2rem 1rem 2rem 1rem;
+    }
+
+    .mainBox2 {
+        padding: 2rem 1rem 2rem 1rem;
+    }
+
+    .mainBox3 {
+        padding: 2rem 1rem 2rem 1rem;
+    }
+}
+
+/* ...................... CLOSE MOBILE MEDIA QUERY ........................... */
+
+/* ...................... START TAB MEDIA QUERY ................................... */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    #Mobile-Development{
+        width: 100%;
+    }
+    .tabs{
+        width: 400px;
+        transform: translate(79%,-6%);
+    }
+    #Third-Section{
+        width: 100%
+    } 
+     /* .line_Border{
+        margin-left: 19rem;
+    }  */
+     #Section_Two{
+        width: 100%;
+    }
+    .Logos_And_Card{
+        width: 100%;
+    }
+    .social_Sites-of-Company{
+        padding-left: 9rem;
+}
+.social_Sites-of-Company ul >li {
+    padding-right: 2px;
+}
+.social_Sites-of-Company ul >li>a{
+    padding-left: 12px;
+}
+
+    
+    /* .leftTextImage {
+        width: 48.8rem;
+    } */
+
+    /* .googleImg {
+        width: 6rem;
+        padding: 1rem 0rem;
+    } */
+
+    .logoImages {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .secondBannerPara {
+        padding: 1rem 7rem;
+    }
+
+    .customNav {
+        width: 40rem;
+    }
+
+    .customTabContent {
+        width: 40rem;
+        padding: 1rem;
+    }
+
+    .bgImageFifthSection {
+        height: 53rem;
+    }
+
+    .forPadding {
+        padding: 1.7rem 9rem;
+        font-size: 1.5rem;
+    }
+
+    .paddBtmCss {
+        padding-bottom: 3rem;
+    }
+
+    .bgColorReact {
+        margin-right: 2rem;
+    }
+
+    .engagementPara {
+        padding: 2rem 7rem;
+    }
+
+    .secTabSectnHeading {
+        padding: 2rem 23rem 0rem 3rem;
+    }
+
+    .customIndicatorCss {
+        top: 60rem !important;
+    }
+
+    .ecomWebPara {
+        padding: 2rem 3rem;
+    }
+}
+
+/* ...........................CLOSE  MEDIA QUERY FOR tab/medium .............................. */
+
+/* ........................... MEDIA QUERY FOR LARGE SCREEN .............................. */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .banner_mobile-Development{
+        width: 100%;
+    }
+
+    .SpectrumP{
+        padding: 7px 12px 37px 14px;
+    }
+
+    .tabs{
+        width: 376px;
+
+    }
+    .thirdSectionParah4 p {
+        font-size: 17px;
+      
+    }
+    #Third-Section{
+        width: 100%;
+    }
+    .Logos_And_Card{
+        width: 100%;
+    }
+    .engagement_modal{
+        width: 100%;
+    }
+    .life_cycle{
+        width: 100%;
+    }
+    .slider_main_section{
+        width: 100%;
+    }
+    .our_client{
+        width: 100%;
+    }
+    .customNav {
+        width: 42rem;
+    }
+
+    .customTabContent {
+        width: 42rem;
+    }
+
+    .bgImageFifthSection {
+        height: 50rem;
+    }
+
+    .forPadding {
+        padding: 1.7rem 13rem;
+    }
+
+    .imageBox {
+        padding: 1rem 1rem;
+    }
+}
+
+/* ...........................CLOSE  MEDIA QUERY FOR LARGE SCREEN .............................. *
+/* ...........................CLOSE  COMPLETE HOME PAGE WITH MEDIA QUERY .............................. */
+/* ............................ Start MEDIA QUERY UI DESIGN Website Development Page ..........................  */
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    .buttons-groups{
+        white-space: nowrap;
+    }
+    .imageArticle{
+        width: 100%;
+    }
+    .DesignSection{
+        padding-top: 6rem;
+    }
+    .main-icons-part-1 p{
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+    .mainicone-Parts {
+        padding-left: 8px;
+    }
+    .mainicone-Parts p{
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+}
+/* =======================================Mobile========================== */
+@media only screen and (max-width: 767px){
+    .ui_design-Development{
+        width: 100% !important;
+    }
+  .imageArticle{
+    width: 100% !important  ;
+  }
+  .image-_-ofMobiles img{
+    width: 100%;
+  }
+  .buttons-groups{
+   
+    margin-left: 5px;
+  }
+  .Spectrum-_-Development h1{
+    margin-left: 8px;
+
+  }
+  .Spectrum-_-Development p{
+    padding-left: 0px;
+  }
+  .Logos_And_Card-UI{
+    padding-left: 1rem;
+  }
+  .Side-Title h3{
+    padding-left: 5rem;
+
+  }
+  .line_Border{
+    margin: auto;
+  }
+  .Part-two{
+    display: flex;
+}
+.part-Three{
+    display: flex;
+}
+.part-Three img{
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+.icons-_-MobileDesignSections{
+    display: flex;
+}
+.iconsPart-Two{
+    display: flex;
+}
+.bgEngagementSection{
+    width: 100%;
+}
+.mainicone-Parts {
+    padding-left: 7px;
+}
+.para-div4 p{
+    padding-left: 0rem !important;
+    padding-right: 0rem !important;
+}
+.bgEcommerceCarouselSection{
+    width: 100%;
+}
+/* .carousel-indicators{
+    top: 61rem !important;
+} */
+.button{
+    margin-top: 5px;    
+}
+.asideImages{
+ display: block !important;
+   
+}
+.asideImages2{
+    display: block !important;
+}
+.aisdeImages-Coloum2{
+    display: block !important;
+}
+.aisdeImages-RowTwo{
+    display: block !important;
+}
+}
+
+  
+
+
+/* ==================================MOBILE MEDIA QUERY FOR UI PAGE END================= */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .ui_design-Development{
+        width: 100% !important;
+    }
+  .imageArticle{
+    width: 100% !important  ;
+  }
+  .image-_-ofMobiles img{
+    width: 100%;
+  }
+  .icons-_-MobileDesignSections{
+    display: flex;
+  }
+  .buttons-groups{
+    white-space: nowrap;
+    margin-left: -75px;
+  }
+  .Part-two{
+    display: flex;
+    height: 10%;
+  }
+  .part-Three{
+    display: flex;
+    height: 10%;
+  }
+  .mainicone-Parts {
+    padding-left: 63px;
+}
+.main-icons-part-1 p{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.mainicone-Parts p{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.asideImages img{
+    margin-left: 46px;
+}
+.asideImages2 img{
+    margin-left: 46px;
+}
+.para-div4{
+    margin-left: -50px;
+    margin-top: 41px;
+}
+.para-div3{
+    margin-left: -50px;
+    margin-top: 41px;
+}
+.para-div2{
+    margin-left: -50px;
+    margin-top: 41px;
+}
+.para-div1{
+    margin-left: -50px;
+    margin-top: 41px;
+}
+.aisdeImages-Coloum2 img {
+    margin-left: 46px;
+}
+.aisdeImages-RowTwo img{
+    margin-left: 46px;
+}
+
+}
+/* =============================END MEDIA QUERY OF UI DESIGN PAGE================== */
+/* ====================START MEDIA QUERY OF SOCIAL MEDIA PAGE========== */
+/* ........................... MEDIA QUERY FOR MOBILE .............................. */
+
+@media only screen and (max-width: 767px) {
+ .bgBannerImage{
+    height: 98vh !important;
+ }
+    .enterUrl {
+        width: 20rem;
+        margin-top: 1.2rem;
+    }
+
+    .companyName {
+        width: 20rem;
+        margin-top: 1.2rem;
+    }
+
+    .rightRow {
+        display: none;
+    }
+
+    .leftUnderlineImage {
+        margin-top: 0rem;
+    }
+
+    .rightRow2 {
+        display: none;
+    }
+
+    .rightRow3 {
+        display: none;
+    }
+
+    .rightRow4 {
+        display: none;
+    }
+
+    .rightRow5 {
+        display: none;
+    }
+
+    .ourProcessHeading {
+        font-size: 3rem;
+    }
+
+    .mstPwrSecHeading {
+        font-size: 1.5rem;
+    }
+
+    .letDevWebBtn {
+        font-size: 1rem;
+    }
+
+    .customFlex {
+        justify-content: center;
+    }
+
+    .qualityWebHeading {
+        font-size: 1.1rem;
+    }
+
+    .headFSize {
+        font-size: 1.5rem;
+    }
+
+    .fontSizeHead {
+        font-size: 1.5rem;
+    }
+
+    .oneHeadTag {
+        font-size: 10rem;
+        text-align: center;
+    }
+
+    .researchStn {
+        position: absolute;
+        top: 952%;
+        left: 32%;
+    }
+
+    .researchStn2 {
+        position: absolute;
+        top: 997%;
+        left: 32%;
+    }
+
+    .researchStn3 {
+        position: absolute;
+        top: 1040%;
+        left: 32%;
+    }
+
+    .researchStn4 {
+        position: absolute;
+        top: 1083%;
+        left: 32%;
+    }
+    .Social-Ul p {
+        padding-left: 2rem;}
+}
+
+/* ...................... CLOSE MOBILE MEDIA QUERY ........................... */
+
+/* ...................... START TAB MEDIA QUERY ................................... */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .enterUrl {
+        margin-top: 1.2rem;
+    }
+
+    .scheduleSession {
+        margin-top: 1.5rem;
+    }
+
+    .leftUnderlineImage {
+        margin-top: 0rem;
+    }
+
+    .rightRow {
+        width: 16rem !important;
+        margin-left: 0rem;
+    }
+
+    .rightRow2 {
+        width: 19rem !important;
+    }
+
+    .headFSize {
+        font-size: 1.5rem;
+    }
+
+    .rightRow3 {
+        width: 18rem !important;
+    }
+
+    .rightRow4 {
+        width: 26rem !important;
+    }
+
+    .rightRow5 {
+        width: 25rem !important;
+    }
+
+    .ourProcessHeading {
+        font-size: 3rem;
+    }
+
+    .oneHeading {
+        text-align: center;
+    }
+
+    .researchStn {
+        top: 1040%;
+        left: 41%;
+    }
+
+    .researchStn2 {
+        top: 1090%;
+        left: 41%;
+    }
+
+    .researchStn3 {
+        top: 1141%;
+        left: 41%;
+    }
+
+    .researchStn4 {
+        top: 1190%;
+        left: 41%;
+    }
+    .bgBannerImage{
+        height: 121vh;
+    }
+}
+
+/* ...........................CLOSE  MEDIA QUERY FOR tab/medium .............................. */
+
+/* ........................... MEDIA QUERY FOR LARGE SCREEN .............................. */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .bgBannerImage {
+        background-image: url(/assest/img/Social-media-page\ \(1\).png);
+        width: 100%;
+            height: 121vh;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .enterUrl {
+        width: 14rem;
+    }
+
+    .companyName {
+        width: 28.5rem;
+    }
+
+    .researchStn {
+        position: absolute;
+        top: 1115%;
+        left: 5%;
+    }
+
+    .researchStn2 {
+        position: absolute;
+        top: 1115%;
+        left: 27%;
+    }
+
+    .researchStn3 {
+        position: absolute;
+        top: 1115%;
+        left: 53%;
+    }
+
+    .researchStn4 {
+        position: absolute;
+        top: 1115%;
+        left: 75%;
+    }
+
+    .rightRow2 {
+        width: 21rem !important;
+    }
+
+    .rightRow {
+        width: 28.5rem !important;
+        margin-left: 0rem;
+    }
+
+    .rightRow3 {
+        width: 26rem !important;
+    }
+
+    .rightRow4 {
+        width: 31rem !important;
+    }
+
+    .rightRow5 {
+        width: 30rem !important;
+    }
+    .researchStn {
+        position: absolute;
+        top: 239rem;
+        left: 5%;
+    }
+    .researchStn2 {
+        position: absolute;
+        top: 239rem;
+        left: 5%;
+    }
+    .researchStn2 {
+        position: absolute;
+        top: 239rem;
+        left: 27%;
+    }
+    .researchStn4 {
+        position: absolute;
+        top: 239rem;
+        left: 75%;
+    }
+    .researchStn3 {
+        position: absolute;
+        top: 239rem;
+        left: 52%;
+    }
+}

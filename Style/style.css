@@ -1,0 +1,454 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.banner_mobile-Development{
+    background: url(/assest/img/mobile-development.png) no-repeat right; 
+    width: 100%;
+    height: 40rem;
+    background-color: whitesmoke;
+}
+
+ .banner_Side-Card{
+    width: 130%;
+}
+.line_Border{
+    height: 0.4rem;
+    width: 10%;
+   background: #f24a4a;;
+}
+.social_Sites-of-Company > ul{
+    padding-right: 14rem;
+}
+.Section-two-row{
+    --bs-gutter-x: 0rem !important;
+    justify-content: center !important;
+}
+.screen-row{
+    --bs-gutter-x: 0rem !important; 
+}
+.screen-Heading_two{
+    padding-left: 3rem;
+}
+.third-Backgroud-image{
+    background: url(/assest/img/case-studies-bg.png)no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 40rem;
+}
+#Third-Section{
+  background: whitesmoke;
+}
+.Thirdsectionrow{
+    --bs-gutter-x: 0rem !important; 
+    padding-top: 7rem;
+}
+.thirdSectionParah4 p{
+    font-size: 1rem;
+    
+
+}
+.sideTabsCard{
+    width: 80%;
+    height: 450px;
+    position: relative;
+    margin: 100px auto;
+    overflow: hidden;
+    /* float: right; */
+}
+.btn-Box{
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    justify-content: flex-end;
+}
+.btn-Box button{
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.tabs {
+    /* position:absolute; */
+    top:50%;
+    left:50%;
+    transform: translate(54%,18%);
+    width: 566px;
+    height: 363px;
+    background:#f5f5f5;
+    padding:20px 30px;
+    overflow:hidden;
+    border-radius:3px;
+    box-shadow:5px 10px 5px #ccc;
+  }
+  .tabs .tab-header {
+    height:60px;
+    display:flex;
+    align-items:center;
+  }
+  .tabs .tab-header > div {
+    width:calc(100% / 4);
+    text-align:center;
+    color:#888;
+    font-weight:600;
+    cursor:pointer;
+    font-size:14px;
+    text-transform:uppercase;
+    outline:none;
+  }
+  .tabs .tab-header > div > i {
+    display:block;
+    margin-bottom:5px;
+  }
+  .tabs .tab-header > div.active {
+    color: #f24a4a;
+  }
+  .tabs .tab-indicator {
+    position:relative;
+    width:calc(100% / 4);
+    height:5px;
+    background: #f24a4a;
+    left:0px;
+    border-radius:5px;
+    transition:all 500ms ease-in-out;
+  }
+  .tabs .tab-body {
+    position:relative;
+    height:calc(100% - 60px);
+    padding:10px 5px;
+  }
+  .tabs .tab-body > div {
+    position:absolute;
+    top:-200%;
+    opacity:0;
+    transform:scale(0.9);
+    transition:opacity 500ms ease-in-out 0ms,
+      transform 500ms ease-in-out 0ms;
+  }
+  .tabs .tab-body > div.active {
+    top:20px;
+    opacity:1;
+    transform:scale(1);
+  }
+  .Forth-Section-Title{
+    text-align: -webkit-center;
+    padding-top: 6rem;
+    
+}
+.Logos_And_Card{
+  background:  whitesmoke;
+}
+.img-1{
+  border: 1px solid white;  
+  background: white;
+  border-width: 2rem;
+  /* background: center no-repeat; */
+
+  cursor: pointer;
+}
+.img-1:hover{
+  transition: box-shadow .3s;
+  box-shadow: 0 1px 6px 0 rgba(0,0,0,.1);
+
+}
+.img-2{
+  border: 1px solid white;
+  background: white;
+  border-width: 2rem;
+  /* background: center no-repeat; */
+
+  cursor: pointer;
+}
+.img-2:hover{
+  transition: box-shadow .3s;
+  box-shadow: 0 1px 6px 0 rgba(0,0,0,.1);
+
+}
+.img-3{
+  border: 1px solid white;
+  background: white;
+  border-width: 2rem;
+  /* background: center no-repeat; */
+
+  cursor: pointer;
+}
+.img-3:hover{
+  transition: box-shadow .3s;
+  box-shadow: 0 1px 6px 0 rgba(0,0,0,.1);
+
+}
+.img-4{
+  border: 1px solid white;
+  background: white;
+  border-width: 2rem;
+  /* background: center no-repeat; */
+
+  cursor: pointer;
+}
+.img-4:hover{
+  transition: box-shadow .3s;
+  box-shadow: 0 1px 6px 0 rgba(0,0,0,.1);
+
+}
+.Part-two img{
+  border: 1px solid white;  
+  background: white;
+  border-width: 2rem;
+}
+.Part-two img:hover{
+  transition: box-shadow .3s;
+  box-shadow: 0 1px 6px 0 rgba(0,0,0,.1);
+}
+.part-Three img{
+  border: 1px solid white;  
+  background: white;
+  border-width: 2rem;
+  /* margin: 9px 24px 9px 0; */
+}
+.Part-three img:hover{
+  transition: box-shadow .3s;
+  box-shadow: 0 1px 6px 0 rgba(0,0,0,.1);
+}
+.solidLineCenter {
+  height: 5px !important;
+  width: 4.5rem;
+  color: red;
+  margin-top: 5rem;
+  opacity: 1;
+}
+
+.secondBannerPara {
+  padding: 1rem 12rem
+}
+
+/* .............................. */
+.bg-conatiner {
+  background-color: #F4F4F4;
+}
+
+.solidLineThirdBanner {
+  height: 5px !important;
+  width: 4.5rem;
+  color: red;
+  margin-top: 5rem;
+  opacity: 1;
+}
+
+.exploreMore {
+  color: rgb(255, 255, 255) !important;
+  /* border-color: rgb(242, 74, 74); */
+  background-color: rgb(242, 74, 74);
+  font-size: 1.2rem;
+  border: 2px solid rgb(242, 74, 74);
+}
+
+.exploreMore:hover {
+  background-color: transparent;
+  color: rgb(242, 74, 74) !important;
+  border: 2px solid rgb(242, 74, 74);
+}
+
+.topIcon {
+  display: flex;
+  align-items: center;
+  color: rgb(190, 197, 197);
+  font-size: 1.2rem;
+}
+
+.BottomIcon {
+  display: flex;
+  align-items: center;
+  color: rgb(190, 197, 197);
+  font-size: 1.2rem;
+}
+
+/* .............................. */
+
+.bgImageFifthSection {
+  background-image: url(https://www.buzzinteractive.co/wp-content/uploads/2020/04/case-studies-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 41rem;
+}
+
+/* .............................. */
+.sixSection {
+  background-color: #F4F4F4;
+}
+
+.forPadding {
+  padding: 1.3rem 20rem;
+}
+
+.imageBox {
+  padding: 1.9rem 2rem;
+  background: center no-repeat;
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, .1);
+  cursor: pointer;
+}
+
+.customBotomPadding {
+  padding-bottom: 5rem;
+}
+
+.bgColorReact {
+  background-color: white;
+}
+
+/* ................................... */
+.bgEngagementSection {
+  background-color: #383838;
+  padding-bottom: 8rem;
+
+}
+
+.engagementPara {
+  padding: 2rem 15rem;
+}
+
+/* FLEXIBLE TIME MISSING */
+/* ................................... */
+.bgEcommerceCarouselSection {
+  background-color: #F4F4F4;
+  padding-bottom: 8rem;
+}
+
+.bgContainercarousel {
+  background-color: white;
+}
+
+/* ................................... */
+.customIndicatorCss {
+  position: absolute !important;
+  right: 0 !important;
+  /* bottom: 0; */
+  background-color: black !important;
+  left: 0 !important;
+  top: 34rem !important;
+  z-index: 2 !important;
+  display: flex !important;
+  justify-content: center !important;
+  padding: 0 !important;
+  margin-right: 15% !important;
+  margin-bottom: 1rem !important;
+  margin-left: 15% !important;
+  list-style: none !important;
+
+}
+
+.carousel-indicators [data-bs-target] {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 77px !important;
+  height: 5px !important;
+  padding: 0;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #aa8989 !important;
+  background-clip: padding-box;
+  border: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  opacity: .5;
+  transition: opacity .6s ease;
+}
+
+/* ................................... */
+.ecomWebPara {
+  padding: 1rem 15rem;
+}
+
+.processImg {
+  border: 2px solid #e5dada;
+  border-radius: 11rem;
+}
+
+.processImg:hover {
+  border: 2px solid #f31414;
+}
+
+.mainBox {
+  box-shadow: 3px 0px 24px 6px rgb(0 0 0 / 20%);
+  padding: 3rem 2rem 2rem 2rem;
+
+}
+
+.mainBox2 {
+  box-shadow: 3px 0px 24px 6px rgb(0 0 0 / 20%);
+  padding: 3rem 2rem 1.7rem 2rem;
+}
+
+.mainBox3 {
+  box-shadow: 3px 0px 24px 6px rgb(0 0 0 / 20%);
+  padding: 3rem 2rem 1.9rem 2rem;
+}
+
+.boxHeading {
+  margin-bottom: 2rem !important;
+}
+
+.customNav {
+
+  background-color: white;
+  width: 50rem;
+  margin-top: 2rem;
+
+}
+
+.customTabContent {
+  background-color: white;
+  padding: 3rem 2rem;
+  width: 50rem;
+  height: 21rem;
+  font-size: 1.3rem;
+
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  color: #ff000c !important;
+  background-color: #fff;
+  border-color: #dee2e6 #dee2e6 #fff;
+  border-bottom: 2px solid red !important;
+  font-weight: 600;
+}
+
+
+.nav-tabs .nav-link {
+  margin-bottom: -1px;
+  background: 0 0;
+  border: 1px solid transparent;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  color: black !important;
+}
+
+.secTabSection {
+  background-color: white;
+  padding-bottom: 4rem;
+}
+
+.secNavSection {
+  background-color: white;
+  /* padding-left: 3rem !important; */
+  justify-content: center;
+}
+
+.secTabSectnHeading {
+  padding: 2rem 29rem 0rem 3rem;
+}
+
+.flexibleIcon {
+  color: #b3b4b6;
+}
+
+

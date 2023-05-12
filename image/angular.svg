@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="38px" height="40px" viewBox="0 0 38 40">
+    <!-- Generator: sketchtool 63.1 (101010) - https://sketch.com -->
+    <title>7FF40269-361E-4DBB-B0F2-5DDA4DE42E2E</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="8.-Services-Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1920_Services_Web" transform="translate(-181.000000, -4335.000000)" fill-rule="nonzero">
+            <g id="7" transform="translate(150.000000, 4001.000000)">
+                <g id="left-block" transform="translate(0.000000, 258.000000)">
+                    <g id="front-end">
+                        <g id="5" transform="translate(0.000000, 46.000000)">
+                            <g id="logo_angular" transform="translate(30.000000, 30.000000)">
+                                <g transform="translate(1.000000, 0.000000)" id="Shape">
+                                    <polygon fill="#E23237" points="0.0147058824 6.69441176 18.5158824 0.1025 37.5152941 6.57720588 34.4389706 31.0551471 18.5158824 39.8736765 2.84191176 31.1723529"></polygon>
+                                    <polygon fill="#B52E31" points="37.5152941 6.57720588 18.5158824 0.1025 18.5158824 39.8736765 34.4389706 31.0698529"></polygon>
+                                    <path d="M18.5451471,4.74617647 L7.01676471,30.3960294 L11.3233824,30.3227941 L13.6379412,24.5364706 L23.9798529,24.5364706 L26.5141176,30.3960294 L30.6302941,30.4692647 L18.5451471,4.74617647 Z M18.5745588,12.9641176 L22.4710294,21.1086765 L15.1466176,21.1086765 L18.5745588,12.9641176 Z" fill="#FFFFFF"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
